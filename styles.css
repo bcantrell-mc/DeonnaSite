@@ -7,10 +7,22 @@ body {
 }
 
 header {
-    background-color:  none;
+    background-color:  #33CEFF;
+    border-radius: 5px;
 
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
 #description {
     width: 75%;
     float: inline-end;
@@ -32,8 +44,20 @@ li {
     text-align: center;
     margin: 0;
     padding: 30px 30px;
-}
 
+}
+li button {
+    color: white;
+    background-color: #33CEFF;
+    border: none;
+}
+li button:hover {
+    background: rgb(106,13,117, 0.6);
+    text-decoration: none;
+    border-radius:  5px;
+    padding: 2px;
+    border: none;
+}
 
 #nav {
     width: 100%;
@@ -64,6 +88,9 @@ li {
 #flex-container2 {
     display: flex;
     justify-content: space-around;
+    background-color: #33CEFF;
+    border-top: 0px;
+    border-radius: 5px;
 }
 
 #profile-image {
